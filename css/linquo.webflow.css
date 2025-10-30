@@ -3639,6 +3639,7 @@ figcaption {
     grid-column-gap: 0rem;
     grid-row-gap: 0rem;
     grid-template-columns: 1fr;
+    width: 100%;
   }
 
   .pricing-card-list-wrapper {
@@ -4110,6 +4111,7 @@ figcaption {
   }
 
   .faq-icon-wrapper {
+    flex-shrink: 0;
     width: 1.75rem;
   }
 
@@ -4318,6 +4320,7 @@ figcaption {
   .text-size-xlarge.text-weight-medium.is-faq-questions {
     white-space: pre-line;
     word-break: normal;
+    text-align: left;
   }
 
   .navbar-menu-buttons {
@@ -4556,24 +4559,41 @@ figcaption {
   }
 
   .faq-question {
-    justify-content: space-between;
+    justify-content: flex-start;
     display: flex;
     position: relative;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .text-size-xlarge.text-weight-medium.is-faq-questions {
+    white-space: pre-line;
+    word-break: normal;
+    text-align: left;
+    flex: 1;
+    min-width: 0;
   }
 
   .faq-accordion {
     position: static;
     overflow: visible;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .faq-list-wrapper {
     display: block;
     overflow: visible;
+    width: 100%;
   }
 
   .faq-answer {
     position: relative;
     overflow: visible;
+  }
+
+  .faq-answer p {
+    text-align: left;
   }
 
   .faq-answer.w--open {
