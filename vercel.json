@@ -1,0 +1,18 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/pricing", "destination": "/pricing.html" },
+    { "source": "/contact-us", "destination": "/contact-us.html" },
+    { "source": "/blog", "destination": "/blog.html" },
+    { "source": "/cookies-policy", "destination": "/cookies-policy.html" },
+    { "source": "/privacy-policy", "destination": "/privacy-policy.html" },
+    { "source": "/refund-policy", "destination": "/refund-policy.html" },
+    { "source": "/terms-of-service", "destination": "/terms-of-service.html" },
+    { "source": "/detail_blog", "destination": "/detail_blog.html" },
+    { "source": "/child-safety", "destination": "/child-safety.html" }
+  ]
+}
