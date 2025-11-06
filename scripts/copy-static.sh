@@ -1,6 +1,7 @@
 #!/bin/bash
 # Copy static HTML files and assets to dist after build
 # Exclude index.html as it's the React app entry point
+mkdir -p dist
 for file in *.html; do
   if [ "$file" != "index.html" ]; then
     cp "$file" dist/ 2>/dev/null || true
