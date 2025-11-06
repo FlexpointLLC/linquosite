@@ -6847,8 +6847,9 @@ function Frame123() {
       <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] min-w-full not-italic relative shrink-0 text-[#cacfd8] text-[12px] w-[min-content]">
         <p className="leading-[16px]">Connect the community</p>
       </div>
-      <div
-        className="bg-[#232830] box-border content-stretch flex gap-[4px] items-center justify-center overflow-clip p-[8px] relative rounded-[8px] shadow-[0px_0px_0px_1px_#363b43,0px_1px_3px_0px_rgba(143,143,143,0.2)] shrink-0"
+      <a
+        href="/community"
+        className="bg-[#232830] box-border content-stretch flex gap-[4px] items-center justify-center overflow-clip p-[8px] relative rounded-[8px] shadow-[0px_0px_0px_1px_#363b43,0px_1px_3px_0px_rgba(143,143,143,0.2)] shrink-0 hover:bg-[#2a2f37] transition-colors cursor-pointer"
         data-name="Button"
       >
         <div
@@ -6859,7 +6860,7 @@ function Frame123() {
             <p className="leading-[16px]">Join Community</p>
           </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 }
@@ -6876,21 +6877,21 @@ function Frame124() {
 function Frame118() {
   return (
     <div className="content-stretch flex flex-col font-['Inter:Regular',sans-serif] font-normal gap-[12px] items-start leading-[0] not-italic relative shrink-0 text-[#cacfd8] text-[14px] tracking-[-0.08px] w-full">
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      <a href="/use-cases/nextjs" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Next.js Projects</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/use-cases/ecommerce" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Ecommerce Projects</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/use-cases/shopify" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Shopify Projects</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/products/integrations" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Integrations</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/comparison" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Comparison</p>
-      </div>
+      </a>
     </div>
   );
 }
@@ -6909,21 +6910,21 @@ function Frame119() {
 function Frame219() {
   return (
     <div className="content-stretch flex flex-col font-['Inter:Regular',sans-serif] font-normal gap-[12px] items-start leading-[0] not-italic relative shrink-0 text-[#cacfd8] text-[14px] tracking-[-0.08px] w-full">
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      <a href="/products/live-chat" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Live Chat</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/products/customization" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Full Customization</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/products/mobile-apps" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Mobile App</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/products/multi-language" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Multi Language</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/products/ai-chatbot" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">AI Chat Bot</p>
-      </div>
+      </a>
     </div>
   );
 }

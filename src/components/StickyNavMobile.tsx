@@ -111,16 +111,21 @@ export default function StickyNavMobile({ scale }: StickyNavMobileProps) {
         <div className="backdrop-blur-[10.2px] backdrop-filter bg-[rgba(14,17,22,0.95)] w-[390px] border-t border-[rgba(225,228,234,0.05)]">
           <div className="px-[24px] py-[20px]">
             <Accordion type="single" collapsible className="w-full">
-              <AccordionItem value="features" className="border-[rgba(225,228,234,0.05)]">
+              <AccordionItem value="products" className="border-[rgba(225,228,234,0.05)]">
                 <AccordionTrigger className="text-white hover:text-white/80">
-                  Features
+                  Products
                 </AccordionTrigger>
                 <AccordionContent>
                   <div className="flex flex-col gap-[12px] pl-[16px]">
-                    <a href="#" className="text-[#cacfd8] hover:text-white transition-colors">Live Chat</a>
-                    <a href="#" className="text-[#cacfd8] hover:text-white transition-colors">Team Inbox</a>
-                    <a href="#" className="text-[#cacfd8] hover:text-white transition-colors">Integrations</a>
-                    <a href="#" className="text-[#cacfd8] hover:text-white transition-colors">Analytics</a>
+                    <a href="https://www.linquo.app/products" className="text-[#cacfd8] hover:text-white transition-colors">Linquo Overview</a>
+                    <a href="https://www.linquo.app/products/news" className="text-[#cacfd8] hover:text-white transition-colors">News</a>
+                    <a href="https://www.linquo.app/products/mobile-apps" className="text-[#cacfd8] hover:text-white transition-colors">Mobile Apps</a>
+                    <a href="https://www.linquo.app/products/inbox" className="text-[#cacfd8] hover:text-white transition-colors">Inbox</a>
+                    <a href="https://www.linquo.app/products/integrations" className="text-[#cacfd8] hover:text-white transition-colors">Integrations</a>
+                    <a href="https://www.linquo.app/products/agent" className="text-[#cacfd8] hover:text-white transition-colors">Agent</a>
+                    <a href="https://www.linquo.app/products/ai-chatbot" className="text-[#cacfd8] hover:text-white transition-colors">AI Chatbot</a>
+                    <a href="https://www.linquo.app/products/notification" className="text-[#cacfd8] hover:text-white transition-colors">Notification</a>
+                    <a href="https://www.linquo.app/products/faq" className="text-[#cacfd8] hover:text-white transition-colors">FAQ</a>
                   </div>
                 </AccordionContent>
               </AccordionItem>
@@ -131,12 +136,12 @@ export default function StickyNavMobile({ scale }: StickyNavMobileProps) {
                 </AccordionTrigger>
                 <AccordionContent>
                   <div className="flex flex-col gap-[12px] pl-[16px]">
-                    <a href="#" className="text-[#cacfd8] hover:text-white transition-colors">Webflow</a>
-                    <a href="#" className="text-[#cacfd8] hover:text-white transition-colors">Framer</a>
-                    <a href="#" className="text-[#cacfd8] hover:text-white transition-colors">Next.js</a>
-                    <a href="#" className="text-[#cacfd8] hover:text-white transition-colors">React</a>
-                    <a href="#" className="text-[#cacfd8] hover:text-white transition-colors">WordPress</a>
-                    <a href="#" className="text-[#cacfd8] hover:text-white transition-colors">Wix</a>
+                    <a href="https://www.linquo.app/integrations/webflow" className="text-[#cacfd8] hover:text-white transition-colors">Webflow</a>
+                    <a href="https://www.linquo.app/integrations/framer" className="text-[#cacfd8] hover:text-white transition-colors">Framer</a>
+                    <a href="https://www.linquo.app/integrations/nextjs" className="text-[#cacfd8] hover:text-white transition-colors">Next.js</a>
+                    <a href="https://www.linquo.app/integrations/react" className="text-[#cacfd8] hover:text-white transition-colors">React</a>
+                    <a href="https://www.linquo.app/integrations/wordpress" className="text-[#cacfd8] hover:text-white transition-colors">WordPress</a>
+                    <a href="https://www.linquo.app/integrations/wix" className="text-[#cacfd8] hover:text-white transition-colors">Wix</a>
                   </div>
                 </AccordionContent>
               </AccordionItem>
@@ -147,10 +152,14 @@ export default function StickyNavMobile({ scale }: StickyNavMobileProps) {
                 </AccordionTrigger>
                 <AccordionContent>
                   <div className="flex flex-col gap-[12px] pl-[16px]">
-                    <a href="#" className="text-[#cacfd8] hover:text-white transition-colors">Documentation</a>
-                    <a href="#" className="text-[#cacfd8] hover:text-white transition-colors">API Reference</a>
-                    <a href="#" className="text-[#cacfd8] hover:text-white transition-colors">Blog</a>
-                    <a href="#" className="text-[#cacfd8] hover:text-white transition-colors">Support</a>
+                    <a href="https://www.linquo.app/docs" className="text-[#cacfd8] hover:text-white transition-colors">Documentation</a>
+                    <a href="https://www.linquo.app/docs/api" className="text-[#cacfd8] hover:text-white transition-colors">API Reference</a>
+                    <a href="https://linquo.webflow.io/blog" target="_blank" rel="noopener noreferrer" className="text-[#cacfd8] hover:text-white transition-colors">Blog</a>
+                    <a href="https://www.linquo.app/support" className="text-[#cacfd8] hover:text-white transition-colors">Support</a>
+                    <a href="https://www.linquo.app/tutorials" className="text-[#cacfd8] hover:text-white transition-colors">Tutorials</a>
+                    <a href="https://www.linquo.app/examples" className="text-[#cacfd8] hover:text-white transition-colors">Code Examples</a>
+                    <a href="https://www.linquo.app/videos" className="text-[#cacfd8] hover:text-white transition-colors">Video Guides</a>
+                    <a href="https://www.linquo.app/community" className="text-[#cacfd8] hover:text-white transition-colors">Community</a>
                   </div>
                 </AccordionContent>
               </AccordionItem>

@@ -4523,13 +4523,13 @@ function Frame115() {
       <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] min-w-full not-italic relative shrink-0 text-[#cacfd8] text-[12px] w-[min-content]">
         <p className="leading-[16px]">Connect the community</p>
       </div>
-      <div className="bg-[#232830] box-border content-stretch flex gap-[4px] items-center justify-center overflow-clip p-[8px] relative rounded-[8px] shadow-[0px_0px_0px_1px_#363b43,0px_1px_3px_0px_rgba(143,143,143,0.2)] shrink-0" data-name="Button">
+      <a href="/community" className="bg-[#232830] box-border content-stretch flex gap-[4px] items-center justify-center overflow-clip p-[8px] relative rounded-[8px] shadow-[0px_0px_0px_1px_#363b43,0px_1px_3px_0px_rgba(143,143,143,0.2)] shrink-0 hover:bg-[#2a2f37] transition-colors cursor-pointer" data-name="Button">
         <div className="content-stretch flex flex-col items-start justify-center relative rounded-[8px] shrink-0" data-name="💠 Text">
           <div className="flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[12px] text-center text-white w-full">
             <p className="leading-[16px]">Join Community</p>
           </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 }
@@ -4546,21 +4546,21 @@ function Frame116() {
 function Frame110() {
   return (
     <div className="content-stretch flex flex-col font-['Inter:Regular',sans-serif] font-normal gap-[12px] items-start leading-[0] not-italic relative shrink-0 text-[#cacfd8] text-[14px] tracking-[-0.08px] w-full">
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      <a href="/use-cases/nextjs" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Next.js Projects</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/use-cases/ecommerce" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Ecommerce Projects</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/use-cases/shopify" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Shopify Projects</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/products/integrations" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Integrations</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/comparison" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Comparison</p>
-      </div>
+      </a>
     </div>
   );
 }
@@ -4579,21 +4579,21 @@ function Frame111() {
 function Frame216() {
   return (
     <div className="content-stretch flex flex-col font-['Inter:Regular',sans-serif] font-normal gap-[12px] items-start leading-[0] not-italic relative shrink-0 text-[#cacfd8] text-[14px] tracking-[-0.08px] w-full">
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      <a href="/products/live-chat" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Live Chat</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/products/customization" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Full Customization</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/products/mobile-apps" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Mobile App</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/products/multi-language" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Multi Language</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/products/ai-chatbot" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">AI Chat Bot</p>
-      </div>
+      </a>
     </div>
   );
 }
@@ -4612,21 +4612,21 @@ function Frame112() {
 function Frame217() {
   return (
     <div className="content-stretch flex flex-col font-['Inter:Regular',sans-serif] font-normal gap-[12px] items-start leading-[0] not-italic relative shrink-0 text-[#cacfd8] text-[14px] tracking-[-0.08px] w-full">
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      <a href="/refund-policy" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Refund Policy</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/terms-of-service" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">{`Terms & Conditions`}</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/privacy-policy" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Privacy Policy</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/child-safety" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Child Safety Standards</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/cookies-policy" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Cookie Policy</p>
-      </div>
+      </a>
     </div>
   );
 }
@@ -4645,18 +4645,18 @@ function Frame113() {
 function Frame218() {
   return (
     <div className="content-stretch flex flex-col font-['Inter:Regular',sans-serif] font-normal gap-[12px] items-start leading-[0] not-italic relative shrink-0 text-[#cacfd8] text-[14px] tracking-[-0.08px] w-full">
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      <a href="https://linquo.webflow.io/blog" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Blogs</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/about#career" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Career</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="https://linquo.canny.io/changelog" target="_blank" rel="noopener noreferrer" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Change log</p>
-      </div>
-      <div className="flex flex-col justify-center relative shrink-0 w-full">
+      </a>
+      <a href="/contact-us#partner" className="flex flex-col justify-center relative shrink-0 w-full hover:text-white transition-colors">
         <p className="leading-[20px]">Become a partner</p>
-      </div>
+      </a>
     </div>
   );
 }
