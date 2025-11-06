@@ -4779,7 +4779,7 @@ export default function IPhone() {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <div className="bg-[#0e1116] relative size-full" data-name="iPhone 13 & 14 - 1">
+    <div className="bg-[#0e1116] relative w-[390px] min-h-full" data-name="iPhone 13 & 14 - 1">
       <div className="absolute flex h-[calc(1px*((var(--transform-inner-width)*1)+(var(--transform-inner-height)*0)))] items-center justify-center left-[202.8px] top-[3108.99px] w-[calc(1px*((var(--transform-inner-height)*1)+(var(--transform-inner-width)*0)))]" style={{ "--transform-inner-width": "282.453125", "--transform-inner-height": "82.65625" } as React.CSSProperties}>
         <div className="flex-none rotate-[90deg]">
           <div className="h-[82.665px] relative w-[282.453px]">

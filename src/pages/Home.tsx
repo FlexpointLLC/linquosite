@@ -75,7 +75,7 @@ export default function Home() {
       {isMobile && (
         <>
           <StickyNavMobile scale={scale} />
-          <div className="flex justify-center items-start w-full bg-[#0e1116]">
+          <div className="flex justify-center items-start w-full bg-[#0e1116] overflow-x-hidden">
             <div 
               className="relative"
               style={{
@@ -83,6 +83,8 @@ export default function Home() {
                 minHeight: '100vh',
                 transform: `scale(${scale})`,
                 transformOrigin: 'top center',
+                marginLeft: 'auto',
+                marginRight: 'auto',
               }}
             >
               <IPhone13141 />
