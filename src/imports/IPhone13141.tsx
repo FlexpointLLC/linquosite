@@ -2919,7 +2919,7 @@ function Frame91() {
         <p className="leading-[32px]">Webflow</p>
       </div>
       <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[#cacfd8] text-[16px] tracking-[-0.176px] w-full">
-        <p className="leading-[24px]">Add real-time chat without touching code. Just embed, publish, and start chatting.</p>
+        <p className="leading-[24px]">Add real-time chat without touching code. Just copy and paste embed code, publish, and start chatting.</p>
       </div>
     </div>
   );
