@@ -34,10 +34,13 @@ function PlatformText({ title, description }: { title: string; description: stri
 
 function PlatformItem({ icon, title, description }: { icon: React.ReactNode; title: string; description: string }) {
   return (
-    <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
+    <a 
+      href="/coming-soon" 
+      className="mega-menu-item content-stretch flex gap-[8px] items-center relative shrink-0 p-[8px] rounded-[8px] transition-all duration-200"
+    >
       <PlatformIcon icon={icon} />
       <PlatformText title={title} description={description} />
-    </div>
+    </a>
   );
 }
 
@@ -82,7 +85,7 @@ export default function PlatformMegaMenu() {
   return (
     <div className="bg-[#0b0c0d] relative rounded-[12px] size-full">
       <div className="size-full">
-        <div className="box-border content-stretch grid grid-cols-3 gap-[24px] overflow-clip p-[24px] relative size-full">
+        <div className="box-border content-stretch grid grid-cols-3 gap-[12px] overflow-clip p-[24px] relative size-full">
           <PlatformItems />
         </div>
       </div>

@@ -31,10 +31,13 @@ function Frame128() {
 
 function Frame130() {
   return (
-    <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
+    <a 
+      href="/coming-soon" 
+      className="mega-menu-item content-stretch flex gap-[8px] items-center relative shrink-0 p-[8px] rounded-[8px] transition-all duration-200"
+    >
       <Frame129 />
       <Frame128 />
-    </div>
+    </a>
   );
 }
 
@@ -69,10 +72,13 @@ function Frame137() {
 
 function Frame131() {
   return (
-    <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
+    <a 
+      href="/coming-soon" 
+      className="mega-menu-item content-stretch flex gap-[8px] items-center relative shrink-0 p-[8px] rounded-[8px] transition-all duration-200"
+    >
       <Frame133 />
       <Frame137 />
-    </div>
+    </a>
   );
 }
 
@@ -107,10 +113,13 @@ function Frame142() {
 
 function Frame132() {
   return (
-    <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
+    <a 
+      href="/coming-soon" 
+      className="mega-menu-item content-stretch flex gap-[8px] items-center relative shrink-0 p-[8px] rounded-[8px] transition-all duration-200"
+    >
       <Frame141 />
       <Frame142 />
-    </div>
+    </a>
   );
 }
 
@@ -145,10 +154,13 @@ function Frame144() {
 
 function Frame134() {
   return (
-    <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
+    <a 
+      href="/coming-soon" 
+      className="mega-menu-item content-stretch flex gap-[8px] items-center relative shrink-0 p-[8px] rounded-[8px] transition-all duration-200"
+    >
       <Frame143 />
       <Frame144 />
-    </div>
+    </a>
   );
 }
 
@@ -183,10 +195,13 @@ function Frame146() {
 
 function Frame135() {
   return (
-    <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
+    <a 
+      href="/coming-soon" 
+      className="mega-menu-item content-stretch flex gap-[8px] items-center relative shrink-0 p-[8px] rounded-[8px] transition-all duration-200"
+    >
       <Frame145 />
       <Frame146 />
-    </div>
+    </a>
   );
 }
 
@@ -221,10 +236,13 @@ function Frame148() {
 
 function Frame136() {
   return (
-    <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
+    <a 
+      href="/coming-soon" 
+      className="mega-menu-item content-stretch flex gap-[8px] items-center relative shrink-0 p-[8px] rounded-[8px] transition-all duration-200"
+    >
       <Frame147 />
       <Frame148 />
-    </div>
+    </a>
   );
 }
 
@@ -259,10 +277,13 @@ function Frame150() {
 
 function Frame138() {
   return (
-    <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
+    <a 
+      href="/coming-soon" 
+      className="mega-menu-item content-stretch flex gap-[8px] items-center relative shrink-0 p-[8px] rounded-[8px] transition-all duration-200"
+    >
       <Frame149 />
       <Frame150 />
-    </div>
+    </a>
   );
 }
 
@@ -297,10 +318,13 @@ function Frame152() {
 
 function Frame139() {
   return (
-    <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
+    <a 
+      href="/coming-soon" 
+      className="mega-menu-item content-stretch flex gap-[8px] items-center relative shrink-0 p-[8px] rounded-[8px] transition-all duration-200"
+    >
       <Frame151 />
       <Frame152 />
-    </div>
+    </a>
   );
 }
 
@@ -335,10 +359,13 @@ function Frame154() {
 
 function Frame140() {
   return (
-    <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
+    <a 
+      href="/coming-soon" 
+      className="mega-menu-item content-stretch flex gap-[8px] items-center relative shrink-0 p-[8px] rounded-[8px] transition-all duration-200"
+    >
       <Frame153 />
       <Frame154 />
-    </div>
+    </a>
   );
 }
 
@@ -362,7 +389,7 @@ export default function Frame127() {
   return (
     <div className="bg-[#0b0c0d] relative rounded-[12px] size-full">
       <div className="size-full">
-        <div className="box-border content-stretch grid grid-cols-3 gap-[24px] overflow-clip p-[24px] relative size-full">
+        <div className="box-border content-stretch grid grid-cols-3 gap-[12px] overflow-clip p-[24px] relative size-full">
           <Frame155 />
         </div>
       </div>

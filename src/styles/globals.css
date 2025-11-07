@@ -292,4 +292,14 @@ html {
   z-index: 1;
 }
 
+/* Mega Menu Hover Effects */
+.mega-menu-item {
+  transition: all 0.2s ease;
+}
+
+.mega-menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  transform: translateY(-2px) !important;
+}
+
 
