@@ -172,7 +172,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 50;
+  z-index: 100;
   flex-direction: column;
   align-items: center;
 }
@@ -570,7 +570,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 50;
+  z-index: 100;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -854,6 +854,22 @@ body {
 /* Adjust main content padding for fixed navbar - pricing page has its own spacing */
 .main-wrapper {
   padding-top: 0;
+}
+
+/* Ensure FAQ sections stay below navbar */
+.section-faq {
+  position: relative;
+  z-index: 1;
+}
+
+.faq-accordion {
+  position: relative;
+  z-index: 1;
+}
+
+.faq-content-wrapper {
+  position: relative;
+  z-index: 1;
 }
 
 /* Pricing page specific - add minimal padding to clear fixed navbar */
