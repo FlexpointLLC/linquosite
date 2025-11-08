@@ -240,7 +240,7 @@ function Frame223() {
       </div>
       <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] items-center not-italic text-[#cacfd8] text-[14px] text-nowrap tracking-[-0.08px]" style={{ zIndex: 1 }}>
         <p className="leading-[20px] whitespace-pre">
-          © 2025 Linquo Chat, LLC
+          © 2025 Flexpoint LLC
         </p>
       </div>
     </div>

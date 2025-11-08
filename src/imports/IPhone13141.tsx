@@ -4681,7 +4681,7 @@ function Frame219() {
       <Frame113 />
       <Frame114 />
       <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#cacfd8] text-[14px] tracking-[-0.08px] w-full">
-        <p className="leading-[20px]">© 2025 Linquo Chat, LLC</p>
+        <p className="leading-[20px]">© 2025 Flexpoint LLC</p>
       </div>
     </div>
   );

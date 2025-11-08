@@ -7036,7 +7036,7 @@ function Frame223() {
       </div>
       <div className="absolute flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-83.5px)] not-italic text-[#cacfd8] text-[14px] text-nowrap top-[325px] tracking-[-0.08px] translate-y-[-50%]" style={{ zIndex: 1 }}>
         <p className="leading-[20px] whitespace-pre">
-          © 2025 Linquo Chat, LLC
+          © 2025 Flexpoint LLC
         </p>
       </div>
     </div>
