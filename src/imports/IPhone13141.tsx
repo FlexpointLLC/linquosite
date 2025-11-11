@@ -4942,7 +4942,7 @@ export default function IPhone() {
               className="absolute top-0 left-0 w-full h-full rounded-lg"
               src={
                 videoModalOpen
-                  ? "https://www.youtube.com/embed/-GKFJulSheI?autoplay=1"
+                  ? "https://www.youtube.com/embed/4VS_Q4cCvjs?si=yAeGG7ffDcIh4yBT&autoplay=1"
                   : ""
               }
               title="YouTube video player"
